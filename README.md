@@ -17,4 +17,4 @@ OBS: Pode não carregar os produtos devido a descontinuidade da API v1 do Buscap
 De forma a evitar código-fonte desnecessário, foi desenvolvido sem o uso de frameworks tal como jQuery. Com apróximadamente 2000 linhas de JavaScript puro, pesa minificado menos de 20KB.
 
 ## Team
-O desenho da interface foi feito por [Mikael Carrara](https://github.com/mikaelcarrara)
+O desenho da interface foi feito por [Mikael Carrara](https://github.com/mikaelcarrara).
