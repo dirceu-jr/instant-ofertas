@@ -1,0 +1,454 @@
+@charset "utf-8";
+
+/*
+2011 Coora.
+http: //www.coora.com.br/
+*/
+
+body, h1, h2, h3, h4,
+form, fieldset, input, label, p,
+em, strong, a, img, ul, li {
+	padding:0; margin:0; border:0;
+	vertical-align:baseline;
+	font-style:normal;
+}
+
+html {font-size: 62.5%}
+
+p {margin:20px 0 0 0}
+label {cursor:pointer}
+img {border:none}
+
+li {
+	list-style-type:none;
+/*	border: 1px solid #ccc;*/
+}
+
+a {
+	text-decoration:none;
+	cursor:pointer;
+	color:#205faa;
+}
+
+a:hover {color:#468de1}
+
+
+/* General */
+
+h1, h1 a, #but a, #coora-logo, .star01, .star02, .star03, .load_1, .load_2, .load_3, .load_4 {
+	background: no-repeat top left;
+}
+
+body {
+	font:13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:19px;
+	color:#53616b;
+	overflow-y:scroll;
+}
+
+h1 {
+	margin:25px 0 0 30px;
+}
+
+h1, h1 a {
+	width:249px; height:49px;
+	background-position:0 -82px;
+	text-indent:-9999px;
+	outline:none;
+	display:block;
+	float:left;
+}
+
+h1 a:hover {
+	background-position:0 -141px;
+}
+
+h2, h3, h4 {
+	width:100%;
+	font-size:15px;
+	font-weight:normal;
+	margin:15px 0 10px 0;
+	color:#53616b;
+	float:left;
+}
+
+h2, .in h3 {
+	padding:0 0 5px 0;
+	border-bottom:1px solid #ffbe23;
+}
+
+.in h2 {
+	width:100%;
+	border:none;
+	padding:0;
+	margin:0;
+	font-size:22px;
+	color:#000;
+}
+
+/*-*/
+
+#magic-search {
+	width:430px;
+	position:relative;
+	margin:25px 30px 0 0;
+	outline:none;
+	float:right;
+}
+
+input[type="text"] {
+	border-radius:4px;
+	-moz-border-radius:4px;
+	box-shadow:#fff 0 1px 0;
+	-moz-box-shadow:#fff 0 1px 0;
+	width:400px; height:40px;
+	border:5px solid #ddd;
+	font:13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height:40px;
+	background:#fff;
+	padding:0 10px 0 10px;
+	color:#53616b;
+	float:left;
+}
+
+#but a {
+	width:28px; height:28px;
+	background-position:0px -200px;
+	position:absolute;
+	right:15px; top:11px;
+	text-indent:-9999px;
+	float:right;
+}
+
+#but a:hover {
+	background-position:0px -238px;
+}
+
+
+/* Page */
+
+#header {
+	width:100%; height:100px;
+	background:#f9f9f9;
+	border-bottom:1px solid #ddd;
+	position:fixed;
+	left:0; top:0;
+	z-index:9000;
+}
+
+
+#header iframe {
+	width:400px;
+	margin: 40px 0 0 50px;
+	float:left;
+}
+
+#sidebar {
+	width:220px; height:600px;
+	overflow:hidden;
+	padding:0 0 30px 0;
+	position:fixed;
+	left:30px; top:101px;
+	z-index:9000;
+}
+
+#sidebar p {margin:20px 0 0 0}
+.categories.last {margin-bottom:30px}
+
+.categories li {margin:5px 0 0 0}
+.categories li:first-child {margin:0}
+
+#content {
+	padding:101px 30px 30px 280px;
+}
+
+
+/* Sorting */
+
+#c-header {
+	width:100%;
+	position:relative;
+	float:left;
+}
+
+#sorting-open, #sorting-drop {
+	display:none;
+	position:absolute
+}
+
+#sorting-open {
+	right:0; top:17px;
+}
+
+#sorting-drop {
+	box-shadow:0 0 8px #b4b4b4;
+	-moz-box-shadow:0 0 8px #b4b4b4;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	width:170px;
+	background:#fff;
+	border:2px solid #ffbe23;
+	right:-10px; top:20px;
+	text-align:right;
+	padding:10px;
+	z-index:20;
+	float:left;
+}
+
+
+/* Suggestion */
+
+.hide {display:none}
+
+#suggestion {
+	border-radius:4px;
+	-moz-border-radius:4px;
+	width:420px;
+	background:#ddd;
+	padding:4px 5px 5px 5px;
+	position:absolute;
+	top:70px; right:30px;
+	float:right;
+}
+
+#suggestion li {
+	width:420px; height:40px;
+	margin:1px 0 0 0;
+	float:left;
+}
+
+#suggestion li a {
+	width:400px; height:40px;
+	background:#fff;
+	padding:0 10px 0 10px;
+	line-height:40px;
+	display:block;
+	float:left;
+}
+
+#suggestion li a.hover {
+	text-shadow:0 1px 0 #fff;
+	background:#fafafa;
+}
+
+
+/* Offers */
+
+#offers {
+	width:100%;
+	margin:20px 0 -35px 0;
+	float:left;
+}
+
+*+html #offers {
+	margin-bottom:5px;
+	float:none;
+}
+
+#offers > li {
+	width:200px; height:230px;
+	margin:0 13px 40px 13px;
+	text-align:center;
+	position:relative;
+	float:left;
+}
+
+#offers.domain-list > li {
+	height:195px;
+}
+
+#offers > a {float:left}
+
+.name {
+	width:100%; height:35px;
+	margin:5px 0 7px 0;
+	font-weight:normal;
+	font-size:13px;
+	display:block;
+}
+
+.domain {
+	width:100%;
+	text-align:center;
+	color:#b1b1b1;
+	display:block;
+}
+
+.price, .parcelas {
+	width:100%;
+	text-align:center;
+	color:#53616b;
+	display:block;
+}
+
+.price {font-size:21px; font-weight:bold}
+.price em {color:#b1b1b1}
+
+.parcelas {font-size:13px; margin:5px 0 0 0}
+.parcelas em {color:#b1b1b1}
+
+
+/* Tooltip */
+
+#tooltip {
+	box-shadow:0 0 8px #b4b4b4;
+	-moz-box-shadow:0 0 8px #b4b4b4;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	width:200px;
+	border:2px solid #ffbe23;
+	background:#fff;
+	padding:10px;
+	position:absolute;
+	top:-60px; left:-7px;
+	display:block;
+	z-index:10;
+	float:left;
+}
+
+*+html #tooltip {padding-bottom:0}
+
+#tooltip ul {
+	width:200px;
+	border-top:1px solid #ddd;
+	text-align:center;
+	padding:7px 0 0 0;
+	margin:12px 0 0 0;
+	float:left;
+}
+
+#tooltip li {
+	margin:0 12px 0 12px;
+	display:inline;
+}
+
+
+/* Produto */
+
+#infos {
+	width:100%;
+	float:left;
+	display:none;
+}
+
+#offer-photo {
+	width:200px; height:200px;
+	margin:40px 0 0 0;
+	float:left;
+}
+
+#infos-cont {
+	margin:40px 0 0 230px;
+	position:relative;
+}
+
+
+#back {
+	width:80px;
+	position:absolute;
+	text-align:right;
+	right:0; top:0;
+	float:right;
+}
+
+#full-price {
+	width:100%;
+	margin:15px 0 15px 0;
+	color:#b1b1b1;
+	float:left;
+}
+
+#full-price em {
+	font-size:15px;
+	color:#53616b;
+}
+
+/*-*/
+
+#rating {
+	width:100%;
+	margin:0 0 30px 0;
+	float:left;
+}
+
+#rating li {
+	width:16px; height:16px;
+	margin:0 5px 0 0;
+	float:left;
+}
+
+.star01, .star02, .star03 {
+	width:16px; height:16px;
+	text-indent:-9999px;
+	outline:none;
+	float:left;
+}
+
+.star01 {background-position: 0px -276px} 
+.star02 {background-position: 0px -302px} 
+.star03 {background-position: 0px -328px}
+
+
+/* Footer */
+
+#footer {
+	width:100%;
+	text-align:center;
+	margin:60px 0 40px 0;
+	color:#b1b1b1;
+	float:left;
+}
+
+*+html #footer {
+	margin-bottom:5px;
+	float:none;
+}
+
+#footer em {color:#53616b}
+
+#footer ul {
+	width:100%;
+	margin:7px 0 0 0;
+	float:left;
+}
+
+#footer li {
+	margin:0 7px 0 7px;
+	display:inline;
+}
+
+#coora-logo {
+	width:27px; height:31px;
+	background-position:0 0;
+	text-indent:-9999px;
+	outline:none;
+	display:block;
+	margin:25px auto;
+}
+
+#coora-logo:hover {
+	background-position:0 -41px;
+}
+
+
+/*-*/
+
+.load_1, .load_2, .load_3, .load_4 {width:32px; height:32px; clear: both}
+
+.load_1 {background-position:0px -354px}
+.load_2 {background-position:0px -396px}
+.load_3 {background-position:0px -438px}
+.load_4 {background-position:0px -480px}
+
+#local {
+	display: none;
+}
+
+#pt3 {
+	padding-top: 20px;
+}
+
+h1, h1 a, #but a, #coora-logo, .star01, .star02, .star03, .load_1, .load_2, .load_3, .load_4 {
+	background-image:url(./sprite.png);
+	*background-image:url(./sprite.png);
+}
