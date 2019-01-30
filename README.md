@@ -9,6 +9,10 @@ Com desenvolvimento iniciado no primeiro semestre de 2011, apresentava a funcion
 
 O Instant Ofertas buscava oferecer uma interface minimalista, de carregamento e funcionamento extremamente rápido.
 
+## Demonstração
+OBS: Pode não carregar os produtos devido a descontinuidade da API v1 do Buscapé.
+[https://instant-ofertas-aad86.firebaseapp.com](https://instant-ofertas-aad86.firebaseapp.com)
+
 ## Devspeak
 De forma a evitar código-fonte desnecessário, foi desenvolvido sem o uso de frameworks tal como jQuery. Com apróximadamente 2000 linhas de JavaScript puro, pesa minificado menos de 20KB.
 
