@@ -4,7 +4,7 @@ O Instant Ofertas foi um portal com interface minimalista, de carregamento rápi
 
 Apresentava a funcionalidade exclusiva de "busca instantânea", ou seja, exibia os produtos e ofertas tão logo o visitante iniciasse a digitar no campo de busca. Assim como sugestões de palavras-chave de acordo com o digitado.
 
-O seu desenvolvimento foi iniciado no primeiro semestre de 2011 e usou a interface de programação (API) do Buscapé. Foi publicado no domínio "instantofertas.com.br" até 2017. Em 2020 teve seu código-fonte publicado nesse repositório.
+O seu desenvolvimento foi iniciado no primeiro semestre de 2011 e usou a interface de programação (API) do Buscapé. Foi publicado no domínio "instantofertas.com.br" até 2017. Em Janeiro de 2019 teve seu código-fonte publicado nesse repositório.
 
 O arquivo principal é o [io.js](https://github.com/dirceup/instant-ofertas/blob/master/public/io.js).
 
