@@ -6,7 +6,7 @@ O **Instant Ofertas** foi um portal com interface minimalista, de carregamento r
 
 Apresentava como diferencial a funcionalidade exclusiva de "busca instantânea", ou seja, exibia os produtos e ofertas tão logo o visitante iniciasse a digitar no campo de busca. Assim como sugestões de palavras-chave de acordo com o digitado.
 
-O desenvolvimento foi iniciado pelo designer [Mikael Carrara](https://github.com/mikaelcarrara) e programador [Dirceu Jr](https://github.com/dirceup) no primeiro semestre de 2011. Construído com a API v1 do [Buscapé](https://www.buscape.com.br/), foi publicado no domínio "instantofertas.com.br" até 2017 quando foi sucedido pelo projeto [Coora Shopping](https://github.com/dirceup/coora-shopping).
+O desenvolvimento foi iniciado pelo designer [Mikael Carrara](https://github.com/mikaelcarrara) e programador [Dirceu Jr.](https://github.com/dirceup) no primeiro semestre de 2011. Construído com a API v1 do [Buscapé](https://www.buscape.com.br/), foi publicado no domínio "instantofertas.com.br" até 2017 quando foi sucedido pelo projeto [Coora Shopping](https://github.com/dirceup/coora-shopping).
 
 Em Janeiro de 2019 teve seu código-fonte publicado nesse repositório. O código principal é o [io.js](https://github.com/dirceup/instant-ofertas/blob/master/public/io.js).
 
