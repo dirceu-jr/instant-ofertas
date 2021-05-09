@@ -10,7 +10,7 @@ O desenvolvimento foi iniciado pelo designer [Mikael Carrara](https://github.com
 
 Em Janeiro de 2019 teve seu código-fonte publicado nesse repositório. O código principal é o [io.js](https://github.com/dirceup/instant-ofertas/blob/master/public/io.js).
 
-De forma a evitar código-fonte desnecessário, foi desenvolvido sem o uso de frameworks tal como jQuery. Com apróximadamente 2000 linhas de JavaScript puro, pesa minificado menos de 20KB.
+De forma a evitar código-fonte desnecessário, foi desenvolvido sem o uso de frameworks tal como jQuery. Com apróximadamente 2000 linhas de JavaScript puro, pesa minificado menos de 20 KB.
 
 ## Interface
 
