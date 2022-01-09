@@ -1,8 +1,8 @@
-# Instant Ofertas
+# InstantOfertas
 
 ## História
 
-O **Instant Ofertas** foi um portal com interface minimalista, de carregamento rápido para a busca de produtos e comparação de preços.
+O **InstantOfertas** foi um portal com interface minimalista, de carregamento rápido para a busca de produtos e comparação de preços.
 
 Apresentava como diferencial a funcionalidade exclusiva de "busca instantânea", ou seja, exibia os produtos e ofertas tão logo o visitante iniciasse a digitar no campo de busca. Assim como sugestões de palavras-chave de acordo com o digitado.
 
